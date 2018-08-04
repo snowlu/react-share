@@ -26,20 +26,20 @@ class Share extends Component {
           <li className="share-title">分享</li>
           <li className="share-li">
             <p
-              className="iconfont icon-weixin-copy"
+              className="iconfont weixin icon-weixin-copy"
               id="wx"
               onMouseEnter={this.onMouseEnter}
               onMouseLeave={this.onMouseLeave}
             />
           </li>
           <li className="share-li">
-            <p className="iconfont icon-qq-copy-copy" id="qq" />
+            <p className="iconfont qq icon-qq-copy-copy" id="qq" />
           </li>
           <li className="share-li">
-            <p className="iconfont icon-qunfengqqkongjian" id="kj" />
+            <p className="iconfont qqkongjian icon-qunfengqqkongjian" id="kj" />
           </li>
           <li className="share-li">
-            <p className="iconfont icon-qunfengxinlangweibo" id="wb" />
+            <p className="iconfont weibo icon-qunfengxinlangweibo" id="wb" />
           </li>
         </ul>
         <div
