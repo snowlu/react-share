@@ -5,7 +5,6 @@ class App extends Component {
   render() {
     const data = {
       title: 'react-share分享',
-      URL: 'https://github.com/snowlu/react-share',
       coverImage: 'https://avatars2.githubusercontent.com/u/27633674?s=60&v=4'
     };
     return (
@@ -17,3 +16,4 @@ class App extends Component {
 }
 
 export default App;
+
